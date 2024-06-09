@@ -22,3 +22,10 @@ fn test_gcd(){
 
     assert_eq!(gcd(2 * 3 * 5 * 11 * 17, 3 * 7 * 11 * 13 * 19), 3 * 11);
 }
+
+fn pirate_share(total: u64, crew_size: usize) -> u64 {
+    let half = total / 2;
+    half / crew_size as u64
+}
+
+
